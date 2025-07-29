@@ -1,0 +1,15 @@
+:root {
+        --gradient: linear-gradient(135deg, #00BFA6, #00695C);
+        --light-bg: #f9fafb;
+        --card-bg: rgba(255,255,255,0.85);
+        --hover-overlay: rgba(0,191,166,0.1);
+        --shadow-lg: 0 20px 40px rgba(0,0,0,0.1);
+      }
+      body { font-family: 'Inter', sans-serif; background-color: var(--light-bg); color: #1f2937; }
+      h1,h2,h3 { font-family: 'Playfair Display', serif; }
+      .btn-accent { background: var(--gradient); color: #fff; box-shadow: var(--shadow-lg); transition: transform 0.3s, box-shadow 0.3s; }
+      .btn-accent:hover { transform: translateY(-2px); box-shadow: 0 30px 60px rgba(0,0,0,0.15); }
+      .card { background: var(--card-bg); backdrop-filter: blur(12px); border-radius: 1rem; box-shadow: var(--shadow-lg); transition: transform 0.3s; border: 2px solid #00BFA6; }
+      .card:hover { transform: translateY(-6px); }
+      .section-separator { height: 4px; background: var(--gradient); }
+      .how-icon { background: var(--gradient); }
